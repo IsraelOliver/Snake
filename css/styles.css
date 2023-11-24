@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:wght@400;500;600&family=Smooch+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+body {
+    align-items: center;
+    background: #1f0510;
+    color: #fff;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+canvas {
+    background: #31051e;
+    border: 2px solid #460e2b;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.container-item {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.highscore {
+    font-size: 40px;
+}
+
+.score {
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    font-size: 1.8rem;
+    flex: 1;
+}
+
+.score-value {
+    font-weight: 700;
+    font-size: 4.5rem;
+    display: block;
+    margin-top: -10px;
+}
+
+.menu-screen {
+    position:  absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.game-over {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.final-score {
+    font-weight:  500;
+    font-size: 1.5rem;
+    
+}
+
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font: 1rem;
+    font-weight: 700;
+    color: #7c183c;
+    margin-top:  40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
